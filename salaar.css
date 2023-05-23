@@ -1,0 +1,43 @@
+/*css1.css file */
+@keyframes saga {
+     from {
+        opacity: 0.4;
+       color: red;
+        }
+     to {
+    opacity: 1;
+   color: gold;
+    }
+}
+#id1 {
+  backgound-color: grey;
+}
+#id2 {
+  color: brown;
+  }
+.class1 {
+  color: gold;
+  scrollamount: 8;
+    direction: right;
+      width: 75%;
+ }
+h3 {
+  color: red;
+   animation-name: saga;
+   animation-duration: 3s;
+    animation-delay: 2s;
+   animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  }
+p {
+ color: aqua;
+}
+h3: hover {
+  color: gold;
+}
+#id3 {
+ src = "p.jpg" alt="prabhas" width="200" height="400";
+}
+#id4 {
+ src = "p1.jpg" alt="prashanth Neel" width="200" height="400";
+}
